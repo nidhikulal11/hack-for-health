@@ -1,0 +1,151 @@
+*{
+  font-family: 'Times New Roman', Times, serif;
+}
+.boddy {
+  font-family: Arial, sans-serif;
+  background-color: yellowgreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.body2{
+  font-family: Arial, sans-serif;
+  background-color: rgb(219, 117, 151);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+
+}
+.div2{
+  width: 45%;
+}
+.div1{
+  width: 45%;
+}
+.content{
+  display: flex;
+  font-style: italic;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  height: 300px;
+  width:300px;
+  background-color: #ccc;
+  flex-direction: column;
+  padding-left: 20px;
+  margin-left: 40px;
+  border-radius: 30px;
+}
+h1{
+  color: green;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 600;
+}
+#signupPage{
+  font-style: italic; 
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-size: larger; color: darkgreen;
+}
+.ip{
+  margin: 0.6rem;
+  border-radius: 20px;
+}
+
+.pagehidden{
+  display: flex;
+  flex-direction: column;
+  width:1200px;
+  height: 300px;
+  background-color: pink;
+  margin: 2rem;
+  padding: 2rem;
+  border-radius: 40px;
+
+}
+.docc{
+  display: flex;
+  flex-direction: column;
+  width:1200px;
+  height: 300px;
+  background-color: pink;
+  margin: 2rem;
+  padding: 2rem;
+  border-radius: 40px;
+
+}
+.videooo{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width:1200px;
+  height: 400px;
+  background-color: pink;
+  margin: 2rem;
+  padding: 2rem;
+  border-radius: 40px;
+
+}
+
+
+.page {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  width: 400px;
+  text-align: center;
+  display:flex;
+  flex-direction: column;
+}
+
+.hidden {
+  display: none;
+}
+
+input, select, button {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background: #4CAF50;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+
+button:hover {
+  background-color: aliceblue;
+  color: palevioletred;
+}
+
+.btn {
+  
+  margin-top: 15px;
+  padding: 10px 15px;
+  background: #007BFF;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+}
+.btn:hover {
+  background: #0056b3;
+}
+.btn1{
+  background-color: rgb(212, 27, 89);
+  width: 25%;
+  text-decoration: none;
+  color: aliceblue;
+  border-radius: 30px;
+  font-weight: 600;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h2{
+  color: rgb(237, 14, 88);
+  font-weight: 800;
+  font-size: 2rem;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
