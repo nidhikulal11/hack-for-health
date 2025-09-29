@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="health.css">
+
+</head>
+<body class="body2">
+
+
+  <div class="container">
+  <div id="quizPage" class="pagehidden">
+    <h2>Mental Health Quiz</h2>
+    <form id="quizForm">
+      <div class="div1">
+      <label>How was your day?</label>
+      <select id="dayFeedback" required>
+        <option value="">--Select--</option>
+        <option value="low">Bad</option>
+        <option value="medium">Okay</option>
+        <option value="high">Great</option>
+      </select>
+      </div>
+
+      <div class="div2">
+      <label>How do you feel right now?</label>
+      <select id="feelFeedback" required>
+        <option value="">--Select--</option>
+        <option value="low">Sad</option>
+        <option value="medium">Neutral</option>
+        <option value="high">Happy</option>
+      </select>
+      </div>
+      
+      <button class="btn1" type="submit">Submit Feedback</button>
+    </form>
+  </div>
+
+
+  <!-- Video Page -->
+  <div id="videoPage" class="videooo">
+    <h2>Cheer Up! 💙</h2>
+    <p>Here’s a video to make you happy:</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/lFcSrYw-ARY" 
+      title="Motivational Video" frameborder="0" allowfullscreen></iframe>
+  </div>
+
+  <!-- Doctor Page -->
+  <div id="doctorPage" class="docc">
+    <h2>Great! 🎉</h2>
+    <p>You are doing well. If you want, you can still consult a doctor for more support:</p>
+    <button class="btn1"><a href="https://www.practo.com" target="_blank" class="btn1 button" style=" background-color: transparent;">Consult a Doctor</a></button>
+  </div>
+
+  </div>
+
+
+  <script src="script.js"></script>
+    
+</body>
+</html>
